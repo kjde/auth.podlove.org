@@ -80,7 +80,7 @@ if($_GET["code"] == "" AND $_GET["step"] == "") {
 			<li>On the App.net authorization page click the \"AUTHORIZE\" button, if you would like to allow the <em>Podlove Publisher</em> to announce new episodes for you.</li>
 			<li>Copy the resulting authentication code into the \"App.net authentication code\" field in the Modules section.</li>
 		</ol>";
-		echo "<p><a href='https://account.app.net/oauth/authenticate?client_id=" . $config['adn']['client_id'] . "&response_type=" . $config['adn']['response_type'] . "&scope=" . $config['adn']['scope'] . "&redirect_uri=http%3A%2F%2Fauth.podlove.org%2Fadn.php?step=3'>Continue</a></p>";
+		echo "<p><a href='https://account.app.net/oauth/authenticate?client_id=" . $config['adn']['client_id'] . "&response_type=" . $config['adn']['response_type'] . "&scope=" . $config['adn']['scope'] . "&redirect_uri=https%3A%2F%2Fauth.podlove.org%2Fadn.php?step=3'>Continue</a></p>";
 	}		
 }
 
