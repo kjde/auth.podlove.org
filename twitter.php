@@ -3,6 +3,7 @@
  * Twitter authentication module for podlove publisher
  *
  * @author Kaspar Janßen <mail@kjanssen.net>
+ * @license MIT License
  * @version rc1
  */
 
