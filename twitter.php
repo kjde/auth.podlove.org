@@ -194,8 +194,6 @@ if ($content != null) {
     </head>
     <body>
     <?php echo $content ?>
-
-
     </body>
     </html>
 <?php
