@@ -142,8 +142,8 @@ if ($content != null) {
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
         <style type="text/css">
             * {
-                margin: 0px;
-                padding: 0px;
+                margin: 0;
+                padding: 0;
             }
 
             body {
@@ -164,11 +164,11 @@ if ($content != null) {
             }
 
             ol {
-                margin: 1em 0px 1em 2em;
+                margin: 1em 0 1em 2em;
             }
 
             p {
-                margin: 1em 0px 1em 0px;
+                margin: 1em 0 1em 0;
             }
 
             a, a:visited {
@@ -194,7 +194,7 @@ if ($content != null) {
     </head>
     <body>
     <?php echo $content ?>
-    </div>
+
 
     </body>
     </html>
